@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,700&family=Supermercado+One&display=swap');
+
+:root{
+    --primary-color: burlywood;
+    --primary-color-darker: rgb(34, 23, 10);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+ 
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: wheat;
+    padding: 20px;
+    border-radius: 10px;
+
+
+  
+
+}
+
+form input, form label, form button{
+display: block;
+width: 100%;
+margin-bottom: 10px;
+
+}
+
+form input{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+
+}
+
+fomr input:focus{
+    outline: 1px solid var(--primary-color);
+}
+
+form button{
+    border: none;
+    background: turquoise;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover{
+    background: var(--primary-color-darker);
+}
+.paragrafo-resultado, .bad {
+    background-color: rgb(12, 156, 12);
+    padding: 10px 20px;
+}
+
+.bad{
+    background: red;
+}
